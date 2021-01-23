@@ -546,9 +546,11 @@ const closeMobileMenuDefault = () => {
 
   const trigger = function () {
     if (window.innerWidth < 768) {
-      console.log("closing the window");
       sidebar.classList.toggle("menu-closed");
     }
+    else if (window.innerWidth > 768) {
+        sidebar.classList.remove("menu-closed");
+      }
   };
 
   window.addEventListener("resize", trigger);
