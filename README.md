@@ -15,7 +15,7 @@ A simple to do list application designed to keep track of a list of items, sub-d
 - CSS3
 
 ## Getting Started
-- Clone this project: git clone https://github.com/pret3nti0u5/To-Do-List.git
+- Clone this project: git clone https://github.com/Tmcerlean/to-do-list.git
 - Install the required dependencies by using: npm install
 - A live demo of the project can be started by using: npm start
 - Distribution files can be produced using: npm run build
